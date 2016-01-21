@@ -30,7 +30,6 @@ public boolean palindrome(String word)
   if(emptStr.equalsIgnoreCase(emptStr2)){
    return true; 
   }
-  println(emptStr);
   return false;
 }
 
