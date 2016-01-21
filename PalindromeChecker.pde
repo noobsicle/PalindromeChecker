@@ -17,6 +17,14 @@ public void setup()
 public boolean palindrome(String word)
 {
   //your code here
+  String emptStr = new String();
+  String emptStr2 = new String();
+  
+  for(int i = word.length()-1; i >= 0; i--){
+   if(Character.isLetter(word.charAt(i))){emptStr = emptStr + word.substring(i,i+1);} 
+    
+  }
+  println(emptStr);
   return false;
 }
 
